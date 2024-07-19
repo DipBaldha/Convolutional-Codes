@@ -11,15 +11,5 @@ the reliability of communication systems. It has working codes for both Soft and
 
 ## DSA- concepts used
 - Dynamic Programming
-- Hashtable/Unordered map
 
-## Contents
-- AnalyticalFormula -> Theoretically calculates the expected probability of the LDPC decoder
-- HardDecisionDecoder-> Performs Convolutional decoding using Hard Decision decoding technique
-- SoftDecisionDecoder-> Performs Convolutional decoding using Soft Decision decoding technique
-- HMatrix2 -> Large example matrix  (Make sure to delete the small preloaded example matrix)
-- Hmat2_analytical_algorithm_convergence -> Matlab figure of the comparison between our simulator and theoritical answer over different probabilities.
 
-## Future Working
-- Optimising space complexity without the increase in time-complexity of the solution i.e not using separate VN_map and CN_map for reference.
-- Using same code with some modification to make it an LDPC decoder for BSC as well.
